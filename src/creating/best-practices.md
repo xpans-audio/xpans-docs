@@ -12,6 +12,11 @@ difficult to quality control. It is okay to combine multiple audio signals
 into one audio source, but you must ensure no audio signals are shared by
 two or more audio sources.
 
+Signal sharing is usually only an issue when signals are aligned in phase.
+Although spatially-aware effects like flangers and choruses copy input audio 
+source signals to multiple output audio sources, the output signals are 
+(at least mostly) unaligned in time.
+
 > Note: If you would like to intentionally break this rule for creative
 > experimentation, make sure you are monitoring your mix in as many formats as
 > possible to ensure your intention is preserved.
