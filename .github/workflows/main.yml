@@ -1,0 +1,20 @@
+name: Build and deploy
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Install mdbook"
+        run: cargo install mdbook
+        
+      - uses: actions/checkout@v6
+      
+      - name: "Build documentation"
+        run: mdbook build
+
+      - name: "Deploy"
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy book --project-name=xpans-docs
