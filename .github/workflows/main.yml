@@ -2,6 +2,7 @@ name: Build and deploy
 on: push
 jobs:
   build:
+    name: "Build and deploy"
     environment: "Cloudflare Pages"
     runs-on: ubuntu-latest
     steps:
