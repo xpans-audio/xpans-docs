@@ -14,3 +14,5 @@
 - [Spatial property exchange (SPE)](./spatial-property-exchange.md)
   - [SPE-MIDI](./spe-midi.md)
 - [xpans Spatial Record (XSR)](./xpans-spatial-record.md)
+- [Code of Conduct](./code-of-conduct.md)
+- [Contribution Guidelines](./contribution-guidelines.md)
