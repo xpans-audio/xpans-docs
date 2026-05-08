@@ -16,5 +16,6 @@ communication, we must tediously ensure our source IDs align with our
 audio channels using SPE-MIDI.
 
 Refer to SPE-MIDI's 
-[source code repository](https://github.com/xpans-audio/xpans_spe_midi)
-for a more technical overview and a rough specification.
+[source code repository](https://github.com/xpans-audio/spe)
+for a more technical overview and a rough specification located in the 
+`spe_midi/` folder.
