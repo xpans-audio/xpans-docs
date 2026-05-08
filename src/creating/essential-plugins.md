@@ -1,5 +1,5 @@
 # Using the Essential Plugins
-xpans distributes a suite of plugins, named the Essential Plugins.
+xpans distributes a suite of plugins named the Essential Plugins.
 This set of plugins is meant to provide foundational utilities for creating
 in the xpans Ecosystem within your DAW.
 
